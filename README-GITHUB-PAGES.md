@@ -4,10 +4,10 @@ Bu paket Monease v0.17 `ReleaseWeb` taslaklarından türetilmiştir. **Taslaklar
 
 ## Yayın öncesi zorunlu düzenlemeler
 
-1. Dört HTML dosyasında `REPLACE_WITH_LEGAL_OPERATOR_NAME` ve `REPLACE_WITH_SUPPORT_EMAIL` yer tutucularını doğru işletmeci adı ve gerçek çalışan e-posta adresiyle değiştirin.
+1. İletişim adresi dört HTML dosyasında `atilla.poyraz1998@gmail.com` olarak ayarlandı ve `mailto:` bağlantıları eklendi. **Gizlilik politikalarında `REPLACE_WITH_LEGAL_OPERATOR_NAME` yer tutucusunu doğrulanmış gerçek işletmeci kimliğiyle değiştirmelisiniz.**
 2. `privacy-tr.html` ve `privacy-en.html` içindeki veri işleme açıklamalarını mevcut Monease koduyla, Apple ve RevenueCat privacy disclosures ile doğrulayın; gerekiyorsa profesyonel hukuki inceleme alın.
-3. Doğrulamadan sonra sayfalardaki TASLAK / DRAFT uyarılarını ve `index.html` üzerindeki taslak uyarısını kaldırın. Tarihleri gerçek yayın tarihine güncelleyin.
-4. E-posta için HTML `mailto:` linki de ekleyebilirsiniz; ancak gerçekten teslim alınabilir adres olmalıdır.
+3. Kimlik ve metinler doğrulandıktan sonra gizlilik politikalarındaki TASLAK / DRAFT uyarılarını ve `index.html` üzerindeki taslak uyarısını kaldırın. Tarihleri gerçek yayın tarihine güncelleyin.
+4. Destek e-posta adresine giden `mailto:` bağlantıları eklendi. E-posta adresinin gerçekten mesaj alabildiğini kontrol edin. Bu adres GitHub Pages yayınında herkese açık olacaktır.
 5. GitHub Pages altında hiçbir gizli API anahtarı, `.p8` anahtarı veya finansal kayıt yayınlamayın. Site **herkese açıktır**.
 
 ## UNKNOWN gibi GitHub Pages kurulumu
