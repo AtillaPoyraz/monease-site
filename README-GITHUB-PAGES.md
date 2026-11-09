@@ -1,12 +1,12 @@
 # Monease GitHub Pages — TR/EN Privacy & Support
 
-Bu paket Monease v0.17 `ReleaseWeb` taslaklarından türetilmiştir. **Taslaklar hukuken/operasyonel olarak doğrulanmış değildir.**
+Bu depo Monease uygulamasının herkese açık TR/EN gizlilik politikası ve destek sayfalarını içerir. 9 Kasım 2026 itibarıyla uygulama kodundaki yerel SwiftData, RevenueCat ve destek e-postası akışları ile teknik açıdan karşılaştırılmıştır. **Bu denetim hukuk danışmanlığı veya App Store onayı değildir; yürürlükteki mevzuata uygunluk sorumluluğu işletmecidedir.**
 
 ## Yayın öncesi zorunlu düzenlemeler
 
 1. İletişim adresi dört HTML dosyasında `atilla.poyraz1998@gmail.com` olarak ayarlandı ve `mailto:` bağlantıları eklendi. **İşletmeci adı, kullanıcının onayıyla `Atilla Poyraz` olarak güncellendi.**
 2. `privacy-tr.html` ve `privacy-en.html` içindeki veri işleme açıklamalarını mevcut Monease koduyla, Apple ve RevenueCat privacy disclosures ile doğrulayın; gerekiyorsa profesyonel hukuki inceleme alın.
-3. Veri işleme açıklamaları ve yasal gereklilikler doğrulandıktan sonra gizlilik politikalarındaki TASLAK / DRAFT uyarılarını ve `index.html` üzerindeki taslak uyarısını kaldırın. Tarihleri gerçek yayın tarihine güncelleyin.
+3. Gizlilik politikası metinleri kod gözlemleri temelinde gözden geçirildi; TASLAK/DRAFT uyarıları kaldırıldı. Uygulamanın SDK veya veri işleme davranışı değişirse metinleri ve tarihleri güncelleyin.
 4. Destek e-posta adresine giden `mailto:` bağlantıları eklendi. E-posta adresinin gerçekten mesaj alabildiğini kontrol edin. Bu adres GitHub Pages yayınında herkese açık olacaktır.
 5. GitHub Pages altında hiçbir gizli API anahtarı, `.p8` anahtarı veya finansal kayıt yayınlamayın. Site **herkese açıktır**.
 
@@ -36,3 +36,11 @@ Bu paket Monease v0.17 `ReleaseWeb` taslaklarından türetilmiştir. **Taslaklar
 - RevenueCat `appl_` production anahtarı ve App Store Sandbox/TestFlight satın alma doğrulamaları ayrı gerekliliklerdir.
 
 Kaynak bilgi: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+## 9 Kasım 2026 teknik politika güncellemesi
+
+- E-posta destek taleplerinin işlenmesi ve olası saklanması TR/EN açıklandı.
+- GitHub Pages barındırmasına bağlı olası teknik bağlantı verileri eklendi.
+- Destek sayfalarına abonelik, yerel kayıt silme ve gizlilik başvurusu açıklamaları eklendi.
+- Apple App Store Connect App Privacy için RevenueCat **Purchases / Purchase History** beyanı ayrıca tamamlanmalı; yalnızca bu sayfaları yayımlamak otomatik olarak App Store uyumluluğu sağlamaz.
+- Politika yasal kapsam, veri saklama süreleri ve ilgili bölgesel mevzuat açısından işletmeci tarafından ayrıca doğrulanmalı.
